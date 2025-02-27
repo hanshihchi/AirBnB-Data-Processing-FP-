@@ -1,4 +1,4 @@
-import readline from 'readline';
+import readline from 'readline'; //peer review: readline also has a promise-based API "node:readline/promises" to use
 import { loadData } from './AirBnBDataHandler.js';
 
 /**
@@ -27,7 +27,7 @@ export const startUI = async (csvFilePath) => {
   const calculations = {};
 
   let exit = false;
-  while (!exit) {
+  while (!exit) { // peer review: nice cli. one thing to note is that the filter results may accumulated
     console.log(`
       1. Filter Listings
       2. Compute Statistics
