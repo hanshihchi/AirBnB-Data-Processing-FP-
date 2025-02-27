@@ -1,4 +1,5 @@
 # AirBnB Data Processor (FP)
+- Video Link: https://youtu.be/QPvyj2GlCMk
 
 This project is designed to process AirBnB listings data in a functional programming style. It reads a CSV file (which may be gzipped), applies various filters, computes statistics, and exports the results. The application is built with ES6 modules and leverages pure functions, method chaining, and higher-order functions (e.g., `map`, `filter`, and `reduce`) to ensure code clarity and maintainability.
 
