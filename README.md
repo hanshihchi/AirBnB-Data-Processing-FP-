@@ -14,7 +14,7 @@ This project is designed to process AirBnB listings data in a functional program
     - Total listings count.
     - Average price per number of bedrooms (ignoring listings with an empty price).
   - Computing the number of listings per host and ranking them.
-  - Filtering listings by host location.
+  - Filtering listings by host location (Addition).
   - Exporting the current filtered listings along with any computed calculations.
   
   The module is designed to be pure and uses method chaining so that every filtering operation returns a new handler instance without mutating the original data.
